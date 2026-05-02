@@ -82,7 +82,7 @@ TRACE | INFO | OK | WARN | ERR | CRIT | STEP | GAME
 Run without UI:
 
 ```powershell
-.\NexusTaskSentinel.ps1 -Mode MaxFPS -Headless
+.\0-killPath.ps1 -Mode MaxFPS -Headless
 ```
 
 Ideal for:
@@ -142,19 +142,19 @@ cd NexusTaskSentinel
 ### Apply Profile
 
 ```powershell
-.\NexusTaskSentinel.ps1 -Mode MaxFPS
+.\0-killPath.ps1 -Mode MaxFPS
 ```
 
 ### Headless Execution
 
 ```powershell
-.\NexusTaskSentinel.ps1 -Mode Streaming -Headless
+.\0-killPath.ps1 -Mode Streaming -Headless
 ```
 
 ### Filter Processes
 
 ```powershell
-.\NexusTaskSentinel.ps1 -FilterPattern '^(chrome|discord)' -MinCPU 5
+.\0-killPath.ps1 -FilterPattern '^(chrome|discord)' -MinCPU 5
 ```
 
 ---
