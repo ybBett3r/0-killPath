@@ -132,7 +132,7 @@ Ensures safe rollback after execution.
 
 ```powershell
 git clone <repo>
-cd NexusTaskSentinel
+cd 0-killPath
 ```
 
 ---
